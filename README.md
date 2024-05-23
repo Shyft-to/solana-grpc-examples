@@ -1,4 +1,4 @@
-# Simple Node JS GRPC client to stream solana data
+# Simple Node JS gRPC client to stream solana data
 
 ## Subscribe to slots
 ```typescript
@@ -39,7 +39,7 @@ const req: SubscribeRequest = {
 };
 ```
 
-## Subscribe to an account with `account_data_slice`
+## Subscribe to an account with `accountsDataSlice`
 ```typescript
 const req: SubscribeRequest = {
   slots: {},
